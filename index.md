@@ -11,9 +11,9 @@
 -->
 ---
 ### Blog Articles
-[Articles on Java](/blog/Articles_Java.md)
-<!--[Articles on Oracle Database](blog/Articles_OracleDatabase/Articles_OracleDatabase.md)-->
-[Articles on System Scripting (Shell/Windows scripting)](/blog/Articles_SystemScripting.md)
+[Articles on Java](/blog/Articles_Java.md)  
+<!--[Articles on Oracle Database](blog/Articles_OracleDatabase/Articles_OracleDatabase.md)-->  
+[Articles on System Scripting (Shell/Windows scripting)](/blog/Articles_SystemScripting.md)  
 
 
 
