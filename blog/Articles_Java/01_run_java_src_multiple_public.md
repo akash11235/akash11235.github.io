@@ -89,7 +89,7 @@ the `.java` file will not compile but it can be executed by java launcher in sou
 
 
 <script src="https://utteranc.es/client.js"
-        repo="akash11235.github.io"
+        repo="akash11235/akash11235.github.io"
         issue-term="pathname"
         label="post-comment"
         theme="github-dark-orange"
