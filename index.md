@@ -7,11 +7,10 @@
 [Weather App (wip)](/weatherapp)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
-<!--
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+[Blog Articles](/blog/Articles)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
-
+<!--
 ---
 [Project 3 Title](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
