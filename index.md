@@ -5,11 +5,15 @@
 ### Front End Development 
 
 [Weather App (wip)](/weatherapp)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
+<!--
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
+-->
 ---
 [Blog Articles](/blog/Articles)
+<!--
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
+-->
 
 <!--
 
