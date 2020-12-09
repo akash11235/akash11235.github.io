@@ -87,7 +87,9 @@ or there is only 1 public class and its name is same as the file name.
 * So the overall observation is that if we put two public classes in the file,
 the `.java` file will not compile but it can be executed by java launcher in source mode.  
 
+<link href="../utterances.html" rel="import" />  
 
+<!--
 <script src="https://utteranc.es/client.js"
         repo="akash11235/akash11235.github.io"
         issue-term="pathname"
@@ -95,11 +97,6 @@ the `.java` file will not compile but it can be executed by java launcher in sou
         theme="github-dark-orange"
         crossorigin="anonymous"
         async>
-
-</script>
-
-<!--
-<script src="../utterances.js">  
 
 </script>
 -->
