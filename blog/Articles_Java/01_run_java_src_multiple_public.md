@@ -1,4 +1,5 @@
 ### Running a java source with multiple public class files
+
 So there is a funny behaviour around JDK 11 when we create a java source file with multiple public classes in it.
 Consider the following example:
 
@@ -27,17 +28,18 @@ public class MultiplePublicClassTest{
     AnotherPublicClass.x1();
   }
 }
-
 ```
-Try Compiling it with `javac` : 
 
-```
+Try Compiling it with `javac` :  
+
+```dos
 > javac MultiplePublicClass.java
 ```
 
 It will fail with following error.
 
-```
+```dos
+
 MultiplePublicClassTest.java:1: error: class AnotherPublicClass is public, should be declared in a file named AnotherPublicClass.java
 public class AnotherPublicClass { 
        ^
@@ -67,18 +69,23 @@ Hello From AnotherPublicClass.x
 Hello From AnotherPublicClass.x1 
 ```
 
+#### Summary  
 
-Summary: 
-* If both classes above are public. Compiler will give error and it will fail.
+* If both classes above are public. Compiler will give error and it will fail.  
     ```
     class AnotherPublicClass is public, should be declared in a file named 
     AnotherPublicClass.java
     ```
-* It wont compile to `.class` file unless there is either no public class
+It wont compile to `.class` file unless there is either no public class
 or there is only 1 public class and its name is same as the file name.
+
 * Different behaviour of java launcher:
-    * java launcher java.exe running in in source mode can execute 1st main method
+    * java launcher `java.exe` running in source mode can execute first main method
     encountered in the file Irrespective of the file name and access specifier of the internal classes.
     It will execute the main method of 1st class it encounters top to bottom.
+
 * So the overall observation is that if we put two public classes in the file,
-the .java file will not compile but it can be executed by java launcher in source mode.
+the `.java` file will not compile but it can be executed by java launcher in source mode.  
+
+<script src="../utterances.js"
+</script>
