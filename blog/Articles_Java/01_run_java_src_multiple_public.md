@@ -87,18 +87,12 @@ or there is only 1 public class and its name is same as the file name.
 * So the overall observation is that if we put two public classes in the file,
 the `.java` file will not compile but it can be executed by java launcher in source mode.  
 
-<iframe src="../utterances.html">
-
-</iframe>
-
-<!--
 <script src="https://utteranc.es/client.js"
         repo="akash11235/akash11235.github.io"
         issue-term="pathname"
         label="post-comment"
-        theme="github-dark-orange"
+        theme="preferred-color-scheme"
         crossorigin="anonymous"
         async>
 
 </script>
--->
